@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div id="header">
+        <h1 id="mainHeader">Library</h1>
+      </div>
+      <div id="content">
+        <div id="bookUi">
+          <div id="input">
+            <h2 id="header2">Add a Book</h2>
+            <label class="formLabels">Who is the book's Author?</label>
+            <input type="text" id="bookAuthor" class="inputSizes" />
+            <label class="formLabels">What is the book's title?</label>
+            <input type="text" id="bookTitle" class="inputSizes" />
+            <label class="formLabels">How many pages does the book have?</label>
+            <input type="text" class="inputSizes" id="bookPages" />
+            <label class="formLabels">Have you read this Book?</label>
+            <input type="checkbox" id="readBook" />
+            <button id="submitBook">Add</button>
+          </div>
+        </div>
+        <div id="library"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
