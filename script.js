@@ -61,11 +61,11 @@ function createBook(book) {
   libraryContent.appendChild(newDiv);
   const header = document.createElement("h1");
   header.className = "booksHeader";
-  header.innerText = book.author;
+  header.innerText = book.title;
   newDiv.appendChild(header);
   const titleHeader = document.createElement("h4");
   titleHeader.className = "titleHeaders";
-  titleHeader.innerText = book.title;
+  titleHeader.innerText = book.author;
   newDiv.appendChild(titleHeader);
   const pageNum = document.createElement("h4");
   pageNum.className = "pageNum";
